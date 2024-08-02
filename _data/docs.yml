@@ -1,0 +1,55 @@
+- title: Awry
+  docs:
+  - home
+
+- title: Installation
+  docs:
+  - build-configuration
+  - install-linux
+  - install-macos
+  - install-windows
+
+- title: Constructs
+  docs:
+  - keywords
+  - describe-construct
+  - context-construct
+  - when-construct
+  - given-construct
+  - and-construct
+  - it-construct
+
+- title: Assertions
+  docs:
+  - assertions-overview
+  - assertions-equal
+  - assertions-greater-than
+  - assertions-gte
+  - assertions-less-than
+  - assertions-lte
+  - assertions-inrange
+  - assertions-be-null
+  - assertions-be-true
+  - assertions-be-false
+
+- title: Fixtures
+  docs:
+  - fixtures-overview
+  - fixtures-before
+  - fixtures-after
+
+- title: Extensions
+  docs:
+  - extensions-overview
+  - extensions-example
+
+- title: Signals
+  docs:
+  - signals-overview
+
+- title: Configuration
+  docs:
+  - config-definitions
+  - config-output
+  - config-logging
+  

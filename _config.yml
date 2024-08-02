@@ -1,0 +1,55 @@
+# Site settings
+title: Awry
+email: your-email@domain.com
+description: A Behavior-Driven Test Framework for C
+lang: en-US
+
+baseurl: ""
+url: awry-cc.github.io
+git_address: https://github.com/Awry-CC/awry
+git_edit_address: https://github.com/Awry-CC/awry-cc.github.io/tree/master
+
+bootwatch: flatly # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+# Plugins (previously gems:)
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+  - vendor
+timezone: America/Chicago
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
