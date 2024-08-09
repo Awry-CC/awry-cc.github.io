@@ -15,13 +15,21 @@ redirect_from: /docs/index.html
   <li><img src="https://github.com/Awry-CC/awry/actions/workflows/Ubuntu.yml/badge.svg"/></li>
 </ul>
 
+---
+
 ## Goals
+
+<br />
 
 - A small, behavior-driven, test library for C.
 - No extensions to the C-library
 - Extensible assertions
 
+---
+
 ## Functionality
+
+<br />
 
 - An elegant syntax
 - A variety of default assertions
@@ -29,7 +37,11 @@ redirect_from: /docs/index.html
 - Extensible
 - Configurable Output Formats
 
+---
+
 ## Example
+
+<br />
 
 ```c
 #include "awry/awry.h"
